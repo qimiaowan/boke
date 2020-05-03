@@ -1,0 +1,38 @@
+.item
+    margin-top 40px;
+    line-height 1.8;
+
+    & .head
+        margin-bottom 15px;
+        & .title
+            float left;
+            color #2479CC;
+        & .time
+            float right;
+            color #bbb;
+            font-size 14px;
+
+    & .content
+        & h2
+            font-size 1.7em;
+            border-bottom 1px solid #ddd;
+        & p
+            margin-top 20px;
+            margin-bottom 10px;
+            word-break: break-all;
+
+
+    & .out
+        margin-top 20px;
+
+@media only screen and (max-width: 600px)
+
+    body .item .head
+                & .title
+                    float none;
+                    word-break: break-all;
+                & .time
+                    float none;
+                    text-align: right ;
+
+
